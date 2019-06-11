@@ -1,3 +1,4 @@
+#!/usr/bin/python
 import os, sys, argparse
 import operator
 
@@ -109,21 +110,21 @@ class Rom():
         {'token': '[!]',   'weight': 100, 'description': 'Verified Good Dump'},
         {'token': '(a)',   'weight': 80,  'description': 'Australian'},
         {'token': '(C)',   'weight': 0,   'description': 'Chinese'},
-        {'token': '(E)',   'weight': 85,  'description': 'Europe'},
+        {'token': '(E)',   'weight': 100, 'description': 'Europe'},
         {'token': '(F)',   'weight': 0,   'description': 'French'},
         {'token': '(FN)',  'weight': 0,   'description': 'Finland'},
         {'token': '(G)',   'weight': 0,   'description': 'German'},
         {'token': '(GR)',  'weight': 0,   'description': 'Greece'},
         {'token': '(HK)',  'weight': 0,   'description': 'Hong Kong'},
         {'token': '(I)',   'weight': 0,   'description': 'Italian'},
-        {'token': '(J)',   'weight': 0,   'description': 'Japan'},
+        {'token': '(J)',   'weight': 50,  'description': 'Japan'},
         {'token': '(K)',   'weight': 0,   'description': 'Korean'},
         {'token': '(NL)',  'weight': 0,   'description': 'Dutch'},
         {'token': '(PD)',  'weight': 80,  'description': 'Public Domain'},
         {'token': '(S)',   'weight': 0,   'description': 'Spanish'},
         {'token': '(SW)',  'weight': 0,   'description': 'Sweden'},
-        {'token': '(U)',   'weight': 95,  'description': 'USA'},
-        {'token': '(UK)',  'weight': 90,  'description': 'England'},
+        {'token': '(U)',   'weight': 90,  'description': 'USA'},
+        {'token': '(UK)',  'weight': 95,  'description': 'England'},
         {'token': '(Unk)', 'weight': 0,   'description': 'Unknown Country'},
         {'token': '(-)',   'weight': 0,   'description': 'Unknown Country'},
         {'token': '(Sachen-USA)', 'weight':10, 'description': 'found it'},
